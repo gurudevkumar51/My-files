@@ -92,6 +92,17 @@
         <mxCell id="lzUQdhj4amosFNwFvth0-2" value="Data Cleaning and Preprocessing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="657" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="lzUQdhj4amosFNwFvth0-6" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="800" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lzUQdhj4amosFNwFvth0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lzUQdhj4amosFNwFvth0-2" target="lzUQdhj4amosFNwFvth0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lzUQdhj4amosFNwFvth0-8" value="Load Data to&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lzUQdhj4amosFNwFvth0-7">
+          <mxGeometry x="-0.2289" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
