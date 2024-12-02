@@ -98,7 +98,7 @@
         <mxCell id="lzUQdhj4amosFNwFvth0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lzUQdhj4amosFNwFvth0-2" target="lzUQdhj4amosFNwFvth0-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lzUQdhj4amosFNwFvth0-8" value="Load Data to&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lzUQdhj4amosFNwFvth0-7" vertex="1" connectable="0">
+        <mxCell id="lzUQdhj4amosFNwFvth0-8" value="Load Data to &lt;b&gt;VENDORFEED.MARKIT_DATA&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lzUQdhj4amosFNwFvth0-7" vertex="1" connectable="0">
           <mxGeometry x="-0.2289" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
