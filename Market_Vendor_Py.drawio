@@ -95,6 +95,9 @@
         <mxCell id="ON_xVF4CwLUAhyaOUKDL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lzUQdhj4amosFNwFvth0-6" target="ON_xVF4CwLUAhyaOUKDL-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="PGYYXmX-QJA-28GfTCRw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="lzUQdhj4amosFNwFvth0-6" target="PGYYXmX-QJA-28GfTCRw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lzUQdhj4amosFNwFvth0-6" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="470" y="791" width="60" height="80" as="geometry" />
         </mxCell>
@@ -171,7 +174,7 @@
         <mxCell id="ON_xVF4CwLUAhyaOUKDL-22" value="Transform Data using&amp;nbsp;&lt;div&gt;Python script&amp;nbsp;&lt;/div&gt;&lt;div&gt;OR&lt;br&gt;By invoking Stored procedures&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="415" y="905" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ON_xVF4CwLUAhyaOUKDL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON_xVF4CwLUAhyaOUKDL-24" target="ON_xVF4CwLUAhyaOUKDL-26" edge="1">
+        <mxCell id="ON_xVF4CwLUAhyaOUKDL-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON_xVF4CwLUAhyaOUKDL-24" target="PGYYXmX-QJA-28GfTCRw-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ON_xVF4CwLUAhyaOUKDL-24" value="Final Tables" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -186,7 +189,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ON_xVF4CwLUAhyaOUKDL-26" value="End" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="445" y="1150" width="110" height="60" as="geometry" />
+          <mxGeometry x="445" y="1270" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ON_xVF4CwLUAhyaOUKDL-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ON_xVF4CwLUAhyaOUKDL-31" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -218,6 +221,15 @@
         </mxCell>
         <mxCell id="PGYYXmX-QJA-28GfTCRw-0" value="Convert Datafile as CSV" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="710" y="524.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PGYYXmX-QJA-28GfTCRw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PGYYXmX-QJA-28GfTCRw-3" target="ON_xVF4CwLUAhyaOUKDL-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGYYXmX-QJA-28GfTCRw-3" value="Extract Data in CSV format to Output folder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PGYYXmX-QJA-28GfTCRw-5" value="On Succes load to DB&lt;br&gt;Move original Data files to Archieve Foldee" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="791" width="150" height="79" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
